@@ -1,0 +1,10 @@
+{
+    "name": "Sports News",
+    "short_name": "Sports",
+    "description": "Notícias de esportes atualizadas em tempo real.",
+    "start_url": "../index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0d47a1"
+}
+  

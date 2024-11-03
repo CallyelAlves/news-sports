@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PWA de notícias de esportes atualizadas em tempo real">
+    <meta name="theme-color" content="#0d47a1">
+    <title>Sports News - Notícias de Esportes</title>
+
+    <!-- Manifesto PWA -->
+    <link rel="manifest" href="./public/manifest.json">
+    
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <header id="header"></header>
+    <main id="news-container"></main>
+
+    <!-- Scripts -->
+    <script src="./environments/environment.js" defer></script>
+    <script src="./src/js/app.js" type="module" defer></script>
+    <script src="./src/js/api.js" type="module" defer></script>
+    <script src="./src/components/header.js" defer></script>
+    <script src="./src/components/newsCard.js" defer></script>
+</body>
+
+</html>
